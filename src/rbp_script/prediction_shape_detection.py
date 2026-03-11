@@ -268,7 +268,7 @@ with open('homography_matrix.pkl', 'rb') as f:
 print("Homography matrix loaded successfully.")
 
 #load model
-yolo = YOLO("/home/aas/Documents/ur5_project/runs/obb/bag_project/yolo26_first_run6/weights/best.pt")
+yolo = YOLO("../models/best.pt")
 
 # Initialize Picamera2
 print("Initializing Pi Camera...")
